@@ -16,7 +16,7 @@ namespace ConsoleApp1
             do
             {
                
-                Console.WriteLine("PLEASE ENTER THE ACTION TO BE PERFORMED LIKE 1.ADD, 2.UPDATE, 3.DELETE");
+                Console.WriteLine("PLEASE ENTER THE ACTION TO BE PERFORMED LIKE 1.ADD, 2.UPDATE, 3.DELETE,4.VIEW");
                 int caseSwitch = Int32.Parse(Console.ReadLine());
                 switch (caseSwitch)
                 {
